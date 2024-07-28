@@ -1,0 +1,53 @@
+.fixed-img-height {
+    height: 200px;
+    /* Set this to your desired height */
+    object-fit: cover;
+    /* Ensures the image covers the specified height without distorting the aspect ratio */
+    width: 100%;
+    /* Ensures the image width is 100% of the card width */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+
+
+.fixed-img-height {
+    height: 200px;
+    /* Adjust as needed */
+    object-fit: cover;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.mt-auto {
+    margin-top: auto !important;
+}
